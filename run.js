@@ -2962,7 +2962,7 @@ say('NEXTSEKAI', {
   align: 'left',
   colors: ['red', 'magenta']
 })
-start("neofetch")
+
 let teks =`
 Instagram : @ditzzsxz_
 Whatsapp  : 08988293493
@@ -2971,17 +2971,15 @@ Github    : wffzy
 
 `
 teks +=`
-• Os: ${distro} ${arch}
-• Cpu : ${manufacturer} ${brand}
-• Memory : ${format(used)}/${format(total)} 
-• Uptime : ${uptime}
 
 Terminal Sudah siap, silahkan ketik command di bawah 
 
 Gunakan Mode Desktop Agar Layar Console Lebar :)
+\n\n
 
 `
-return log(teks)
+log(text)
+return start("neofetch")
 }
 show(formatBytes)
 function formatBytes(bytes, decimals = 2) {

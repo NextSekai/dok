@@ -2978,7 +2978,7 @@ Gunakan Mode Desktop Agar Layar Console Lebar :)
 \n\n
 
 `
-log(text)
+log(teks)
 return start("neofetch")
 }
 show(formatBytes)

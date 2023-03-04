@@ -2962,7 +2962,7 @@ say('NEXTSEKAI', {
   align: 'left',
   colors: ['red', 'magenta']
 })
-    
+start("neofetch")
 let teks =`
 Instagram : @ditzzsxz_
 Whatsapp  : 08988293493

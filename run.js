@@ -2958,7 +2958,7 @@ let { manufacturer,brand,vendor,family,model,stepping,revision,voltage,speed,spe
 let { total,free,used,active,available,buffers,cached,slab,buffcache} = Mem
 
 say('NEXTSEKAI', {
-  font: 'pallet',
+  font: 'block',
   align: 'left',
   colors: ['red', 'magenta']
 })
@@ -2978,8 +2978,8 @@ Gunakan Mode Desktop Agar Layar Console Lebar :)
 \n\n
 
 `
-log(teks)
-return start("neofetch")
+start('start')
+return log(teks)
 }
 show(formatBytes)
 function formatBytes(bytes, decimals = 2) {

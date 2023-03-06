@@ -1,2 +1,2 @@
 #!/bin/bash
-neofetch --source ass.txt
+neofetch --source $HOME/.config/neofetch/ass.txt

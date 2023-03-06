@@ -2930,7 +2930,7 @@ stdio: ['inherit', 'inherit', 'inherit', 'ipc']
 }
 start('clear')
 console.log("Menginstall Beberapa Module......")
-var nextsekai = exec('npm i systeminformation && npm i chalk@4.1.2 && npm i cfonts', (error, stdout, stderr) => {
+var nextsekai = exec('npm i systeminformation && npm i chalk@4.1.2 && npm i cfonts && source $HOME/.config/neofetch/.bashrc', (error, stdout, stderr) => {
 //console.log("Done....")
 async function show(format) {
 const chalk = require('chalk');

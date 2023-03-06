@@ -2972,9 +2972,6 @@ Github    : wffzy
 `
 teks +=`
 
-Terminal Sudah siap, silahkan ketik command di bawah 
-
-Gunakan Mode Desktop Agar Layar Console Lebar :)
 \n\n
 
 `

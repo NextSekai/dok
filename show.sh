@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
 
-neofetch --source $HOME/.config/neofetch/ass.conf  --ascii_colors '7' '1' '2' '4'
+neofetch --source $HOME/.config/neofetch/ass.txt --ascii_colors '7' '1' '2' '4'
 
 

@@ -2931,7 +2931,7 @@ stdio: ['inherit', 'inherit', 'inherit', 'ipc']
 start('clear')
 console.log("Menginstall Beberapa Module......")
 var nextsekai = exec('npm i systeminformation && npm i chalk@4.1.2 && npm i cfonts', (error, stdout, stderr) => {
-console.log("Done....")
+//console.log("Done....")
 async function show(format) {
 const chalk = require('chalk');
 const log = console.log;
@@ -2957,17 +2957,13 @@ let {platform,distro,release,codename,kernel,arch,hostname,fqdn,codepage,logofil
 let { manufacturer,brand,vendor,family,model,stepping,revision,voltage,speed,speedMin,speedMax,governor,cores,physicalCores,processors} = Cpu
 let { total,free,used,active,available,buffers,cached,slab,buffcache} = Mem
 
-say('NEXTSEKAI', {
-  font: 'block',
-  align: 'left',
-  colors: ['red', 'magenta']
-})
 
 let teks =`
 Instagram : @ditzzsxz_
 Whatsapp  : 08988293493
 Website   : zyy.sh
 Github    : wffzy
+
 
 `
 teks +=`

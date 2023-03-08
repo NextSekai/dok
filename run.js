@@ -2958,21 +2958,14 @@ let { manufacturer,brand,vendor,family,model,stepping,revision,voltage,speed,spe
 let { total,free,used,active,available,buffers,cached,slab,buffcache} = Mem
 
 
-let teks =`
-Instagram : @ditzzsxz_
-Whatsapp  : 08988293493
-Website   : zyy.sh
-Github    : wffzy
 
 
-`
-teks +=`
 
-\n\n
 
-`
-start('neofetch')
-return log(teks)
+
+
+
+return start('neofetch')
 }
 show(formatBytes)
 function formatBytes(bytes, decimals = 2) {

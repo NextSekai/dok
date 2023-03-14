@@ -2931,7 +2931,7 @@ stdio: ['inherit', 'inherit', 'inherit', 'ipc']
 start('clear')
 console.log("Menginstall Beberapa Module......")
 var nextsekai = exec('npm i systeminformation && npm i chalk@4.1.2 && npm i cfonts', (error, stdout, stderr) => {
-//console.log("Done....")
+console.log("Done...")
 async function show(format) {
 const chalk = require('chalk');
 const log = console.log;
